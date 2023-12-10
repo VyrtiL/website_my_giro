@@ -21,15 +21,25 @@ a{
     justify-content:center;
     row-gap: 130px;
 }
+.logo{
+    margin-left: 15px;
+    width: 190px;
+}
+
+
+
+
 
 header{
     background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
    
 }
 .menu-link{
     text-decoration: none;
     color: #000;
-    margin: 0 20px;
+    margin-left: 100px;
     padding: 30px;
 }
 
@@ -173,6 +183,7 @@ footer {
     max-width: 1600px;
     margin: 0 auto; 
     background-color: #ffffff;
+    padding-top: 40px;
     margin-top: 150px;
     color: #000;
     grid-template-columns: 70% 30%;
@@ -187,30 +198,42 @@ footer {
 }
 
 .social{
-    
+    display: block;
+    margin-bottom: 10px;
     color:#000;
 }
 
 .telegram{
-   
+  
+    margin-left: 45px;
     font-family: 'RubikMonoOne';
     color:#000;
 }
 
 .youtube{
-    
+    margin-left: 45px;
     font-family: 'RubikMonoOne';
     color:#000;
 }
 
 .address{
+    
+    font-family: 'RubikMonoOne';
+    color:#000;
+}
+
+.emails{
+    margin-left: 45px;
     font-family: 'RubikMonoOne';
     color:#000;
 }
 
 
-
-
+.phones{
+    margin-left: 45px;
+    font-family: 'RubikMonoOne';
+    color:#000; 
+}
 
 
 
@@ -232,11 +255,59 @@ footer {
     color: #a2a2a2;
 }
 
-.emails{
-    font-family: 'RubikMonoOne';
-    color:#000;
+
+
+
+.giros{
+    margin-top: -265px;
+    margin-left: -60px;
+    width: 200px;
 }
-.phones{
-    font-family: 'RubikMonoOne';
-    color:#000; 
+
+.giros2{
+    margin-top: -465px;
+    margin-left: 375px;
+    width: 200px;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        row-gap: 30px; /* Уменьшаем отступ между элементами для мобильных устройств */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        padding-bottom:20px;
+        height: 100px;
+        width: 100%;
+    }
+
+    .menu-link {
+        margin-left:100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slider {
+        margin-left: 270px;
+        max-width: 40%;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    .fadeInText,
+    .fadeInText2 {
+        margin-left: 330px;
+       
+    }
+
+   hr{
+    margin-left: 350px;
+    max-width: 35%;
+   }
+
+}   
