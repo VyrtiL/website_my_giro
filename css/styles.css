@@ -272,42 +272,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .container {
-        row-gap: 30px; /* Уменьшаем отступ между элементами для мобильных устройств */
+        row-gap: 30px;
+        margin-left: 80%; /* Уменьшаем отступ между элементами для мобильных устройств */
     }
 }
-
-
-@media only screen and (max-width: 768px) {
-    .logo {
-        padding-bottom:20px;
-        height: 100px;
-        width: 100%;
-    }
-
-    .menu-link {
-        margin-left:100px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .slider {
-        margin-left: 270px;
-        max-width: 40%;
-    }
-
-    h1 {
-        font-size: 10px;
-    }
-
-    .fadeInText,
-    .fadeInText2 {
-        margin-left: 330px;
-       
-    }
-
-   hr{
-    margin-left: 350px;
-    max-width: 35%;
-   }
-
-}   
