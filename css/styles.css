@@ -297,7 +297,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .slider {
-        margin-left: 170px;
+        margin-left: 240px;
         max-width: 70%;
     }
 
@@ -305,14 +305,14 @@ footer {
 
     .fadeInText {
         
-        margin-left: 230px;
+        margin-left: 265px;
        
     }
     .fadeInText2{
         margin-left: 50px;
     }
    hr{
-    margin-left: 350px;
+    margin-left: 450px;
     max-width: 35%;
    }
 
@@ -359,9 +359,24 @@ header{
 
 
     #map {
+        margin-left: 50px;
         height: auto;
         weight: auto; 
       }
+
+      h2{
+        margin-left: 50px;
+      }
+      .giros{
+        margin-top: -265px;
+        margin-left: -10px;
+        width: 150px;
+    }
+      .giros2 {
+        margin-top: -465px;
+        margin-left: 375px;
+        width: 150px;
+      }    
     footer {
         font-size: 11px;
         grid-template-columns: 1fr; 
