@@ -27,8 +27,6 @@ a:hover{
     border: none; 
   }
 
-
-
 header{
     font-family: 'RussoOne';
     background-color: white;
@@ -42,15 +40,6 @@ header{
     margin-left: 100px;
     padding: 30px;
 }
-
-
-
-
-
-
-
-
-
 
   body{
     
@@ -72,8 +61,6 @@ header{
     background: #000000;
 
 }
-
-
 
 .grid-item {
     display: block;
@@ -139,8 +126,7 @@ h4 {
     margin-top: 150px;
     padding: 30px;
     text-align: center;
-    color: #ffffff;
-    
+    color: #ffffff;   
 }
 
 .line{
@@ -188,7 +174,6 @@ footer {
     grid-template-columns: 70% 30%;
 
 }
-
 
 .giro{
     font-size: 14px;
@@ -256,28 +241,19 @@ footer {
 
 
 
-
-
-
-
-
-
-/* Показать все элементы при выборе "Все" */
 [value="all"]:checked~.plumbing .grid-item {
     display: block;
 }
 
-/* Показать элементы только с категорией "гироскутеры" при выборе "гироскутеры" */
 [value="гироскутеры"]:checked~.plumbing [data-category*="гироскутеры"] {
     display: block;
 }
 
-/* Показать элементы только с категорией "сигвеи" при выборе "сигвеи" */
 [value="сигвеи"]:checked~.plumbing [data-category*="сигвеи"] {
     display: block;
 }
 
-/* Показать элементы только с категорией "электросамокаты" при выборе "электросамокаты" */
+
 [value="электросамокаты"]:checked~.plumbing [data-category*="электросамокаты"] {
     display: block;
 }
@@ -295,4 +271,75 @@ width: 500px;
 font-family: 'RussoOne';
 margin-left: 150px;
 color:#fff;
+}
+.girose{
+    font-family: 'RussoOne';
+    margin-left: 475px;   
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        margin-left: 140px;
+        flex-direction: column;
+        align-items: center;
+        grid-column-gap: 0;
+    }
+
+    .grid-item {
+        margin-bottom: 20px;
+    }
+
+    
+    .line,.line2,.line11,.line22,.line33,.line44{
+        display: none;
+    }
+
+    h4{
+        font-size: 30px;
+        margin-left: 120px;
+    }
+
+    .s {
+
+        margin-left: 120px;
+        max-width: 60%;
+        
+        }
+    
+    #radio{
+        display: none;
+    }
+header{
+    height: auto;
+    padding: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    .menu-link{
+        font-size: 11px;
+        text-decoration: none;
+        color: #000;
+        margin-left: 0px;
+        height: auto;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    footer {
+        font-size: 11px;
+        grid-template-columns: 1fr; /* Изменяем на одну колонку */
+    }
+
+    .telegram, .youtube, .emails, .phones, .address, .girose {
+        margin-left: 300px; /* Убираем отступ для мобильных устройств */
+        margin-top: 10px; /* Добавляем отступ сверху для мобильных устройств */
+    }
+
+    .topbutton {
+        bottom: 10px; /* Уменьшаем отступ снизу для мобильных устройств */
+        right: 100px; /* Уменьшаем отступ справа для мобильных устройств */
+        width: 100px; /* Уменьшаем ширину для мобильных устройств */
+    }
+
+
 }
