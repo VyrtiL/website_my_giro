@@ -230,7 +230,7 @@ footer {
     margin-left: 45px;
     font-family: 'RubikMonoOne';
     color:#000;
-}
+}       
 
 
 .phones{
@@ -274,45 +274,56 @@ footer {
     width: 200px;
 }
 
-@media only screen and (max-width: 768px) {
-    .container {
-        row-gap: 30px; /* Уменьшаем отступ между элементами для мобильных устройств */
-    }
+.girose{
+    font-size: 11px;
+    color: #000;
+    font-family: 'RussoOne';
+    margin-left: 475px;   
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+    .container {
+        row-gap: 30px; /* Уменьшаем отступ между элементами для мобильных устройств */
+    }
     .logo {
         padding-bottom:20px;
         height: 100px;
         width: 100%;
     }
-
-    .menu-link {
-        margin-left:100px;
-    }
 }
+
+
 
 @media only screen and (max-width: 768px) {
     .slider {
-        margin-left: 270px;
-        max-width: 40%;
+        margin-left: 170px;
+        max-width: 70%;
     }
 
   
 
-    .fadeInText,
-    .fadeInText2 {
-        margin-left: 330px;
+    .fadeInText {
+        
+        margin-left: 230px;
        
     }
-
+    .fadeInText2{
+        margin-left: 50px;
+    }
    hr{
     margin-left: 350px;
     max-width: 35%;
    }
 
+
+   .botton{
+    padding-left: 100px;
+    max-width: 100%;
+   }
+
 .text1{
+    
     padding-left: 50px;
     margin: 0 295px; /* Добавляем отступы по бокам для компактного отображения */
     font-size: 14px; /* Уменьшаем размер шрифта */
@@ -325,10 +336,45 @@ footer {
 }
 
 .subscribe {
-    padding-left: 20px; /* Изменяем отступ слева для мобильных устройств */
-    margin-left: 0; /* Обнуляем отступ с левой стороны */
+        
+    margin-left: 220px; /* Обнуляем отступ с левой стороны */
     width: auto; /* Ширина становится автоматической для лучшей адаптации */
     height: auto; /* Высота становится автоматической для лучшей адаптации */
 }
+header{
+    height: auto;
+    padding: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    .menu-link{
+        font-size: 11px;
+        text-decoration: none;
+        color: #000;
+        padding-left: 20px;
+       
+        
+       
+    }
 
+
+    #map {
+        height: auto;
+        weight: auto; 
+      }
+    footer {
+        font-size: 11px;
+        grid-template-columns: 1fr; 
+    }
+
+    .telegram, .youtube, .emails, .phones, .address, .girose {
+        margin-left: 300px; 
+        margin-top: 10px; 
+    }
+
+    .topbutton {
+        bottom: 10px; 
+        right: 100px; 
+        width: 100px; 
+    }
 }   
