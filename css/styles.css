@@ -15,7 +15,9 @@ body{
 a{
     text-decoration: none;
 }
-
+a:hover{
+    color: #a2a2a2;
+}
 .container{
     display: grid;
     justify-content:center;
@@ -31,6 +33,7 @@ a{
 
 
 header{
+    font-family: 'RussoOne';
     background-color: white;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -116,6 +119,7 @@ p{
 }
 
 .close {
+    background: none;
     border: none; 
   }
 
@@ -295,9 +299,7 @@ footer {
         max-width: 40%;
     }
 
-    h1 {
-        font-size: 10px;
-    }
+  
 
     .fadeInText,
     .fadeInText2 {
@@ -316,5 +318,17 @@ footer {
     font-size: 14px; /* Уменьшаем размер шрифта */
 }
 
+.botton{
+    padding-left: 350px;
+    margin: 0 5px; /* Добавляем отступы по бокам для компактного отображения */
+    
+}
+
+.subscribe {
+    padding-left: 20px; /* Изменяем отступ слева для мобильных устройств */
+    margin-left: 0; /* Обнуляем отступ с левой стороны */
+    width: auto; /* Ширина становится автоматической для лучшей адаптации */
+    height: auto; /* Высота становится автоматической для лучшей адаптации */
+}
 
 }   
