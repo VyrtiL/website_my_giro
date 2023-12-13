@@ -66,114 +66,108 @@
               <h4>Каталог</h4>
               <form class="search-container">
                 <input class="s" type="text" id="search" placeholder="Поиск..." oninput="filterItems()">
-                
-                <label>
-                    <input type="radio" name="category" value="all" checked> Все
-                </label>
-                <label>
-                    <input type="radio"  name="category" value="гироскутеры"> Гироскутеры
-                </label>
-                <label>
-                    <input type="radio" name="category" value="сигвеи"> Сигвеи
-                </label>
-                <label>
-                    <input type="radio" name="category" value="электросамокаты"> Электросамокаты
-                </label>
+                <select id="product-type">
+                  <option value="all">Все</option>
+                  <option value="gir">Гироскутеры</option>
+                  <option value="sig">Сигвеи</option>
+                  <option value="sam">Электросамокаты</option>
+              </select>
+              
             </form>
-
-<ol class="plumbing">
-    <div class="giro-section" data-category="гироскутеры">
-        <h4>Гироскутеры</h4>
-        <img class="line" src="img/Line 9.svg">
-        <img class="line2" src="img/Line 9.svg">
-          <div class="grid-container">
-            
-            <div class="grid-item" data-category="гироскутеры">
-              <a href="#giro-section">
-                <img src="img/Group 32.png" alt="Изображение 1">
-                <div class="caption">giro-super-hiro</div>
-                <p class="pip">13999 руб.</p>
-              </a>
-            </div> 
-            <div class="grid-item" data-category="гироскутеры">
-              <a href="#giro-section">
-                <img src="img/Group 30.png" alt="Изображение 2">
-                <div class="caption">giros-you-my-hiros</div>
-              <p class="pop">11999 руб.</p>
-              </a>
-            </div>
-            <div class="grid-item" data-category="гироскутеры">
-              <a href="#giro-section">
-                <img src="img/Group 31.png" alt="Изображение 3">
-                <div class="caption">giro-pro</div>
-                <p class="pap">29999 руб.</p>
-              </a>
-            </div>
+            <div class="filter">
+              
+             
           </div>
-        </div>
 
-
-        <div class="sigway-section"data-category="сигвеи">
-            <h4>Сигвеи</h4>
-            <img class="line33" src="img/Line 9.svg">
-            <img class="line44" src="img/Line 9.svg">
-              <div class="grid-container">
-                
-                <div class="grid-item" data-category="сигвеи">
-                  <a href="#sigway-section">
-                    <img src="img/Group 33.png" alt="Изображение 1">
-                    <div class="caption">Segway i2</div>
-                    <p class="pip">98999 руб.</p>
-                  </a>
-                </div>
-                <div class="grid-item">
-                  <a href="#sigway-section" data-category="сигвеи">
-                    <img src="img/Group 34.png" alt="Изображение 2">
-                    <div class="caption">U-Scoot U-Breeze</div>
-                  <p class="pop">15999 руб.</p>
-                  </a>
-                </div>
-                <div class="grid-item" data-category="сигвеи">
-                  <a href="#sigway-section">
-                    <img src="img/Group 35.png" alt="Изображение 3">
-                    <div class="caption">Dark Side</div>
-                    <p class="pap">19999 руб.</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="samo-section" data-category="электросамокаты">
-                <h4>Электросамокаты</h4>
-                <img class="line11" src="img/Line 9.svg">
-                <img class="line22" src="img/Line 9.svg">
+            
+              <div class="product" data-type="gir">
+                  <h4>Гироскутеры</h4>
+                  <img class="line" src="img/Line 9.svg">
+                  <img class="line2" src="img/Line 9.svg">
                   <div class="grid-container">
-                    
-                    <div class="grid-item" data-category="электросамокаты">
-                      <a href="#samo-section">
-                        <img src="img/Group 36.png" alt="Изображение 1">
-                        <div class="caption">Halten RS-03</div>
-                        <p class="pip">249999 руб.</p>
-                      </a>
-                    </div>
-                    <div class="grid-item" data-category="электросамокаты">
-                      <a href="#samo-section">
-                        <img src="img/Group 37.png" alt="Изображение 2">
-                        <div class="caption">KUGOO S3 Pro</div>
-                      <p class="pop">161999 руб.</p>
-                      </a>
-                    </div>
-                    <div class="grid-item" data-category="электросамокаты">
-                      <a href="#samo-section">
-                        <img src="img/Group 38.png" alt="Изображение 3">
-                        <div class="caption">Razor Electric Scooter</div>
-                        <p class="pap">69999 руб.</p>
-                      </a>
-                    </div>
+                      <div class="grid-item" data-type="gir">
+                          <a href="#giro-section">
+                              <img src="img/Group 32.png" alt="Изображение 1">
+                              <div class="caption">giro-super-hiro</div>
+                              <p class="pip">13999 руб.</p>
+                          </a>
+                      </div>
+                      <div class="grid-item" data-category="gir">
+                        <a href="#giro-section">
+                          <img src="img/Group 30.png" alt="Изображение 2">
+                          <div class="caption">giros-you-my-hiros</div>
+                        <p class="pop">11999 руб.</p>
+                        </a>
+                      </div>
+                      <div class="grid-item" data-category="gir">
+                        <a href="#giro-section">
+                          <img src="img/Group 31.png" alt="Изображение 3">
+                          <div class="caption">giro-pro</div>
+                          <p class="pap">29999 руб.</p>
+                        </a>
+                      </div>
+          
+                  </div>
+              </div>
+          
+              <div class="product" data-type="sig">
+                  <h4>Сигвеи</h4>
+                  <img class="line33" src="img/Line 9.svg">
+                  <img class="line44" src="img/Line 9.svg">
+                  <div class="grid-container">
+                      <div class="grid-item" data-type="sig">
+                          <a href="#sigway-section">
+                              <img src="img/Group 33.png" alt="Изображение 1">
+                              <div class="caption">Segway i2</div>
+                              <p class="pip">98999 руб.</p>
+                          </a>
+                      </div>
+                      <div class="grid-item">
+                        <a href="#sigway-section" data-category="sig">
+                          <img src="img/Group 34.png" alt="Изображение 2">
+                          <div class="caption">U-Scoot U-Breeze</div>
+                        <p class="pop">15999 руб.</p>
+                        </a>
+                      </div>
+                      <div class="grid-item" data-category="sig">
+                        <a href="#sigway-section">
+                          <img src="img/Group 35.png" alt="Изображение 3">
+                          <div class="caption">Dark Side</div>
+                          <p class="pap">19999 руб.</p>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="product" data-type="sam">
+                  <h4>Электросамокаты</h4>
+                  <img class="line11" src="img/Line 9.svg">
+                  <img class="line22" src="img/Line 9.svg">
+                  <div class="grid-container">
+                      <div class="grid-item" data-type="sam">
+                          <a href="#samo-section">
+                              <img src="img/Group 36.png" alt="Изображение 1">
+                              <div class="caption">Halten RS-03</div>
+                              <p class="pip">249999 руб.</p>
+                          </a>
+                      </div>
+                      <div class="grid-item" data-category="sam">
+                        <a href="#samo-section">
+                          <img src="img/Group 37.png" alt="Изображение 2">
+                          <div class="caption">KUGOO S3 Pro</div>
+                        <p class="pop">161999 руб.</p>
+                        </a>
+                      </div>
+                      <div class="grid-item" data-category="sam">
+                        <a href="#samo-section">
+                          <img src="img/Group 38.png" alt="Изображение 3">
+                          <div class="caption">Razor Electric Scooter</div>
+                          <p class="pap">69999 руб.</p>
+                        </a>
+                      </div>
                   </div>
                 </div>
-            </ol>
-
+         
                 <div id="brand-section">
                     <h4>ТОЛЬКО<br>
                         ЛУЧШИЕ<br>
@@ -231,6 +225,30 @@
                                 }
                             });
                         }
+                        document.addEventListener('DOMContentLoaded', function () {
+    const productTypeSelect = document.getElementById('product-type');
+    const products = document.querySelectorAll('.product');
+
+    productTypeSelect.addEventListener('change', function () {
+        const selectedType = productTypeSelect.value;
+
+        products.forEach(product => {
+            const productType = product.getAttribute('data-type');
+
+            if (selectedType === 'all' || selectedType === productType) {
+                product.style.display = 'block';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    });
+});
+
+</script>
+                        
+
+
+
                     </script>
                     
 

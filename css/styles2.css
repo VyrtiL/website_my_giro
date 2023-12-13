@@ -135,7 +135,7 @@ h4 {
     margin-top: -150px;
 }
 .line2{
-    margin-left: 400px;
+    margin-left: 420px;
     max-width: 350px;
     margin-top: -150px;
 }
@@ -275,6 +275,18 @@ color:#fff;
 .girose{
     font-family: 'RussoOne';
     margin-left: 475px;   
+}
+
+select{
+color: #ffffff;
+background-color: #3c3c3c;
+margin-left: 15px;    
+width: 250px;
+height: 40px;
+outline: none;
+border: none;
+
+border-radius: 5px;
 }
 
 @media only screen and (max-width: 768px) {
