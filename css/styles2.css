@@ -317,6 +317,13 @@ border-radius: 5px;
         max-width: 60%;
         
         }
+
+        select{
+            margin-top: 35px;
+            margin-left: 170px;
+
+        
+        }
     
     #radio{
         display: none;
