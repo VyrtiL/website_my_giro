@@ -42,7 +42,7 @@ header{
 }
 
   body{
-    
+    overflow-x: hidden;
     background-color: black;
 }  
 .grid-container {
